@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  h1{
+      text-align: center;
+  }
+  
+  .flex-item {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+
+  @media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }

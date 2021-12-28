@@ -1,0 +1,22 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #061406;
+    padding: 10px;
+    animation: mymove 5s infinite;
+  }
+  
+  .grid-container > div {
+    background-color: #76d576;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  @keyframes mymove {
+    50% {grid-template-columns: auto auto;}
+  }
+  h1{
+      text-align: center;
+  }
